@@ -69,7 +69,6 @@ Flappy Bird Clone is a side-scrolling arcade-style game where a bird must fly th
 
 ### Installation:
 
-```bash
 git clone https://github.com/JanviVPatel/Janvi2.git
 cd Janvi2
 make init        # Install dependencies
