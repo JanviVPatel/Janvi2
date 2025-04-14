@@ -78,69 +78,69 @@ pip install -r requirements.txt  # or manually install pygame
 
 ## 🎮 How It Works:
 
-- **The game uses an infinite loop (while True) for the main event loop.
-- **Bird is affected by gravity and can fly by pressing the space key.
-- **Pipes are randomly generated and scroll from right to left.
-- **Player gains points by passing between pipes.
-- **Game ends when the bird collides with a pipe or hits the ground.
-- **The game can restart after a collision, mimicking the original Flappy Bird experience.
+- The game uses an infinite loop (while True) for the main event loop.
+- Bird is affected by gravity and can fly by pressing the space key.
+- Pipes are randomly generated and scroll from right to left.
+- Player gains points by passing between pipes.
+- Game ends when the bird collides with a pipe or hits the ground.
+- The game can restart after a collision, mimicking the original Flappy Bird experience.
 
 ## 🧱 Data Structures Used:
 
-- **Classes and Objects:
-- **Bird: Handles bird's position, movement, and rendering.
-- **Pipe: Manages individual top and bottom pipes and collision logic.
-- **Base: Controls the scrolling ground animation.
-- **Game: Combines all game logic including score and rendering.
-- **Lists:
-- **Used to manage active pipes on screen and update them each frame.
-- **Dictionaries (optionally for settings/config):
-- **Could be used to map key bindings, difficulty settings, etc.
-- **Pygame Rectangles:
-- **Used for sprite boundary detection and collisions.
+- Classes and Objects:
+- Bird: Handles bird's position, movement, and rendering.
+- Pipe: Manages individual top and bottom pipes and collision logic.
+- Base: Controls the scrolling ground animation.
+- Game: Combines all game logic including score and rendering.
+- Lists:
+- Used to manage active pipes on screen and update them each frame.
+- Dictionaries (optionally for settings/config):
+- Could be used to map key bindings, difficulty settings, etc.
+- Pygame Rectangles:
+- Used for sprite boundary detection and collisions.
 
 ## 🧠 Code Architecture:
-- **Object-Oriented Design: Each component (bird, pipe, base) is modular and isolated in its own class.
+- Object-Oriented Design: Each component (bird, pipe, base) is modular and isolated in its own class.
 
 ## Game Loop Design:
 
-- **Handles events, updates logic, checks for collisions, and draws everything on screen in each iteration.
-- **Separation of Concerns:
-- **Assets (images, sounds) are separated from logic.
-- **Utility functions can be placed in helper files (optional).
-- **Makefile:
-- **Simplifies repetitive tasks like initialization and execution.
-- **Config Files:
-- **.flake8, .pre-commit, and .replit ensure clean code, auto-formatting, and online IDE support.
+- Handles events, updates logic, checks for collisions, and draws everything on screen in each iteration.
+- Separation of Concerns:
+- Assets (images, sounds) are separated from logic.
+- Utility functions can be placed in helper files (optional).
+- Makefile:
+- Simplifies repetitive tasks like initialization and execution.
+- Config Files:
+- .flake8, .pre-commit, and .replit ensure clean code, auto-formatting, and online IDE support.
 
 ## 🚀 Future Improvements:
 
-- **Add multiple difficulty levels
-- **Implement background music and sound toggle
-- **Create a high score saving feature
-- **Add a graphical UI for menu and pause options
-- **Introduce different bird characters and pipe themes
-- **Mobile/touch-screen compatibility
-- **Add pause/resume functionality
+- Add multiple difficulty levels
+- Implement background music and sound toggle
+- Create a high score saving feature
+- Add a graphical UI for menu and pause options
+- Introduce different bird characters and pipe themes
+- Mobile/touch-screen compatibility
+- Add pause/resume functionality
 
 ## 📄 License:
 
-- **This project is licensed under the terms of the MIT License.
-- **See the LICENSE file for full details.
+- This project is licensed under the terms of the MIT License.
+- See the LICENSE file for full details.
 
 ## 🙌 Acknowledgements:
 
-- **Forked from sourabhv/FlapPyBird
-- **Inspired by the original Flappy Bird game by Dong Nguyen
-- **Thanks to the open-source Pygame community
+- Forked from sourabhv/FlapPyBird
+- Inspired by the original Flappy Bird game by Dong Nguyen
+- Thanks to the open-source Pygame community
 
 ## Group Name:
   TECH TITANS
 
 ## Team Members:
 
- - **1.Patel Janvi - 202401447 <br>
- - **2.Patel Shreya - 202401450 <br>
- - **3.Patel Vishwa - 202401451 <br>
- - **4.Vanshi Parikh - 202401443 <br>
+ - 1.Patel Janvi - 202401447 <br>
+ - 2.Patel Shreya - 202401450 <br>
+ - 3.Patel Vishwa - 202401451 <br>
+ - 4.Vanshi Parikh - 202401443 <br>
 
